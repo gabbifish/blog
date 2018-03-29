@@ -10,9 +10,9 @@ body {
 }
 
 .hello {
-  position: relative;
+  /* position: relative; */
   font-weight: bold;
-  width: 70%;
+  display: table;
   margin: 0 auto;
   font-size: 5pt;
   color: #5786d1;
