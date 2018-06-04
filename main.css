@@ -19,6 +19,15 @@ body {
   padding-bottom: 0px;
 }
 
+.main-img {
+  /* display: block; */
+  /* margin: 0 auto; */
+  /* height: 300px; */
+  /* width: 50%; */
+  /* align: center; */
+  text-align: center;
+}
+
 .body-text {
   padding: 20 0 20 0px;
 }
