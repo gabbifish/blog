@@ -3,7 +3,7 @@
     {{ $url := replace .Permalink .Site.BaseURL "" }}
     {{ if ne $url "about/" }}
     <li>
-        <aside class="dates">{{ .Date.Format "Jan 2" }}</aside>
+        <aside class="dates">{{ .Date.Format "Jan 2 2006" }}</aside>
         <!-- <a href='{{ .Permalink }}'> -->
         <!-- If external link exists in post matter -->
         {{ if isset .Params "affiliatelink" }}
